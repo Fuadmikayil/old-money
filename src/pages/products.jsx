@@ -15,7 +15,6 @@ const Products = () => {
         {products[i18n.language].map((item) => {
           return (
             <ProductCard item={item} key={item.id}/>
-            
           );
         })}
       </div>
