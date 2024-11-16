@@ -74,6 +74,6 @@ export const products = [
       hasDiscount: true,
       price: 39.99,
       beforePrice: 49.99,
-      count: 28,
-    },
+      count: 28,
+    },
   ];
