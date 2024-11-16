@@ -1,5 +1,6 @@
 export const products = [
     {
+      id: 1,
       img: 'https://i.imgur.com/QkIa5tT.jpeg',
       name: 'Classic White T-Shirt',
       hasDiscount: true,
@@ -8,6 +9,7 @@ export const products = [
       count: 50,
     },
     {
+      id: 2,
       img: 'https://i.imgur.com/1twoaDy.jpeg',
       name: 'Blue Denim Jeans',
       hasDiscount: false,
@@ -15,6 +17,7 @@ export const products = [
       count: 30,
     },
     {
+      id: 3,
       img: 'https://i.imgur.com/cHddUCu.jpeg',
       name: 'Red Hoodie',
       hasDiscount: true,
@@ -23,6 +26,7 @@ export const products = [
       count: 25,
     },
     {
+      id: 4,
       img: 'https://i.imgur.com/R2PN9Wq.jpeg',
       name: 'Black Leather Jacket',
       hasDiscount: false,
@@ -30,6 +34,7 @@ export const products = [
       count: 10,
     },
     {
+      id: 5,
       img: 'https://i.imgur.com/ZKGofuB.jpeg',
       name: 'Summer Floral Dress',
       hasDiscount: true,
@@ -38,6 +43,7 @@ export const products = [
       count: 20,
     },
     {
+      id: 6,
       img: 'https://i.imgur.com/9LFjwpI.jpeg',
       name: 'Gray Sweatpants',
       hasDiscount: false,
@@ -45,6 +51,7 @@ export const products = [
       count: 40,
     },
     {
+      id: 7,
       img: 'https://i.imgur.com/wXuQ7bm.jpeg',
       name: 'Striped Long Sleeve Shirt',
       hasDiscount: true,
@@ -53,6 +60,7 @@ export const products = [
       count: 35,
     },
     {
+      id: 8,
       img: 'https://i.imgur.com/QkIa5tT.jpeg',
       name: 'Navy Blue Blazer',
       hasDiscount: false,
@@ -60,11 +68,12 @@ export const products = [
       count: 15,
     },
     {
+      id: 9,
       img: 'https://i.imgur.com/wXuQ7bm.jpeg',
       name: 'Casual Chino Pants',
       hasDiscount: true,
       price: 39.99,
       beforePrice: 49.99,
       count: 28,
-    }
+    },
   ];
