@@ -4,8 +4,7 @@ import { products } from '../data/products'
 
 const ProductDetail = () => {
 
-  const {id,name} = useParams()
-  console.log(id)
+  const {id} = useParams()
 
   const productDetail = products.find(item => item.id == id)
   
