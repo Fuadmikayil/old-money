@@ -3,12 +3,10 @@ import { NavLink } from "react-router-dom";
 import { navLinks } from "../data/navlinks";
 import { useTranslation } from "react-i18next";
 import { changeLanguage } from "i18next";
-
 const Header = () => {
   const { i18n } = useTranslation();
-  const [arreyLanguage, setarreyLanguage] = useState([]);
-  const languages = ["az", "en", "tr"];
-
+  const languages = ["en","az", "tr"];
+  
   return (
     <div className="py-8 px-4 container mx-auto  flex justify-between items-center">
       <h1 className="font-extrabold text-4xl text-emerald-200 tracking-wider">
@@ -29,11 +27,11 @@ const Header = () => {
       </nav>
       <select className="rounded-xl text-black outline-none text-center p-1 uppercase text-xs " onChange={(e) => changeLanguage(e.target.value)}>
         {languages.map((item) => {
-          return <option value={item} className="text-black ">{item}</option>;
+          return <option value={item} className="text-black bg-none  ">{item}</option>;
         })}
       </select>
       <button className="py-2 px-6 rounded-lg bg-emerald-200 text-black">
-        Login
+        Login 
       </button>
     </div>
   );
